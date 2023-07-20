@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=LilitaOneRegular400&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+    padding: 0px;
+}
+
+.Banner-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 20px grey;
+    transition: 0.6s;
+}
+
+.Banner-image:hover {
+    transform: scale(1.1);
+}
+
+.anchor {
+    transition: 2s;
+    text-decoration: none;
+}
+
+.Banner-head {
+    color: #011f66;
+    margin: 10px;
+    font-size: 55px;
+    font-family: Roboto;
+    font-weight: 800;
+    text-align: center;
+    transition: 1s;
+    text-shadow: 1px 1px 3px grey;
+    overflow-wrap: hidden;
+    width: 100%;
+
+}
+
+.Banner-head:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.banner-width {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+
+
+.About-Head {
+    color: #011f66;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+.About-Text {
+    color: black;
+    font-size: 22px;
+    font-family: roboto;
+    overflow-wrap: break;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.About-sub-head {
+    color: #011f66;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+
+.list {
+    list-style: square;
+    padding: 20px 10px 10px 50px
+}
+
+.list-item {
+    color: black;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+    padding: 7px;
+}
+
+.Types-Head {
+    color: #011f66;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 600;
+
+}
+
+.Guide-head {
+    color: #011f66;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.Guide-text {
+    color: black;
+    font-size: 20px;
+    font-family: roboto;
+    overflow-wrap: break;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.Guide-sub-head {
+    color: #011f66;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin: 20px;
+
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-size: 28px;
+    font-family: roboto;
+    font-weight: 400;
+    margin-right: 20px;
+    transition: 0.7s;
+}
+
+.nav-link:hover {
+    transform: scale(1.17);
+    color: white;
+
+}
+
+.dropdown-item {
+    font-size: 31px;
+    font-family: roboto;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-family: Roboto;
+    margin: 0px 0px 0px 20px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.banner-image {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    height: 140px;
+}
+
+.main-title {
+    color: #011f66;
+    background-color: #f2fdff;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-family: Roboto;
+    transition: 0.5s;
+    box-shadow: 1px 1px 12px grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sub-title {
+    color: #213480;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+.Card-images {
+    width: 100%
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.4s;
+
+}
+
+.card:hover {
+    box-shadow: 1px 1px 20px black;
+}
+
+.trans {
+    transition: 0.4s;
+}
+
+.trans:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px black;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.currency-title {
+    text-align: center;
+    color: #011f66;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-family: Roboto;
+
+
+}
+
+.input-text {
+    padding: 10px;
+    font-family: Roboto;
+    font-weight: 800;
+    width: 75%;
+    background-color: #cbd2d9;
+    box-shadow: 1px 1px 5px white;
+    border: none;
+
+}
+
+
+.input {
+    color: #323f4b;
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.convert-button {
+    width: 100px;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 500;
+}
+
+.card-top-text {
+    font-size: 25px;
+    font-family: roboto;
+    color: #dcf2f7;
+
+}
+
+.card-end-text {
+    font-size: 17px;
+    font-family: roboto;
+    color: #bd841a;
+}
+
+.back-to-top-btn {
+    width: 180px;
+    height: 50px;
+    font-family: roboto;
+    font-size: 20px;
+}
